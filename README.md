@@ -1,4 +1,29 @@
-# Welcome to your organization's demo respository
-This code repository (or "repo") is designed to demonstrate the best GitHub has to offer with the least amount of noise.
+# Leitstellen-Command
 
-The repo includes an `index.html` file (so it can render a web page), two GitHub Actions workflows, and a CSS stylesheet dependency.
+Ein realistisches, lokales Leitstellenspiel mit deutscher Landeskarte, Einsatzverwaltung, Fahrzeugen und Funkverkehr.
+
+## Starten
+
+```bash
+node server.js
+```
+
+Danach öffnen:
+
+```text
+http://localhost:8000
+```
+
+## Features
+
+- Deutschlandkarte mit Regionen und Einsatzmarkern
+- Realistische Einsatzarten: Brand, Polizei, Rettungsdienst, Technik
+- Mehrere Fahrzeuggruppen pro Dienst mit Verfügbarkeitslogik
+- Dynamische Wetter- und Schichtsimulation
+- Prioritäts, Wartezeit und Abschlusslogik
+- Sound-Alarmierungen mit Web Audio
+- Lokale Synchronisierung zwischen Browser-Tabs
+
+## Hinweise
+
+Das Spiel läuft komplett lokal und benötigt keine externe API oder Datenbank.

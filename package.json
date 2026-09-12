@@ -1,9 +1,10 @@
 {
-  "name": "demo-repo",
-  "version": "0.2.0",
-  "description": "A sample package.json",
-  "dependencies": {
-    "@primer/css": "17.0.1"
+  "name": "leitstellen-command",
+  "version": "1.0.0",
+  "description": "Ein vollständiges deutsches Leitstellenspiel mit Karte, Einsätzen und Funkverkehr",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
   },
   "license": "MIT"
 }
